@@ -10,3 +10,5 @@ new Elysia()
         port: process.env.PORT || 9905,
         hostname: '0.0.0.0'
     })
+
+console.log('Listening on port', process.env.PORT || 9905)

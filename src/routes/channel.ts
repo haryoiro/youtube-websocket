@@ -1,6 +1,5 @@
 import type { ServerWebSocket } from "bun";
 import { innertube } from "../utils/youtube";
-import { YTNodes } from "youtubei.js/web";
 import { finaliseStream } from "../utils/finaliseStream";
 
 export async function getChannel(ws : ServerWebSocket) {
